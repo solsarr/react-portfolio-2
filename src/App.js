@@ -15,12 +15,24 @@ function App() {
       document.title = 'Damasukma Trihanandi';
       AOS.init();
     }, []);
+
+
+    // let me = {
+    //   name: "Solomon Sarr",
+    //   languages: ["React","Javascript", "Python", "HTML", "CSS"],
+    //   feeling: "Determined",
+    //   quick_learner: true,
+    //   works_well_in_teams: true
+    // }
+
+
+
   return (
     <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
       <Navbar />
       <Hiro />
       <Skills />
-      <Honors />
+      {/* <Honors /> */}
       <Certs />
       <Footer />
     </div>
