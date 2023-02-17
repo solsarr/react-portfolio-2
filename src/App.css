@@ -1,3 +1,19 @@
 html {
   scroll-behavior: smooth;
 }
+.home-image{
+  border-radius: 0px 20px 0px 20px;
+  /* overflow: hidden; */
+  display: block;
+  height: 30vh;
+  width: 80vw;
+  box-shadow: 0.6px 0.6px 2px 2px darkgray;
+
+}
+#click{
+  text-decoration: underline;
+} 
+#home{
+  display: flex;
+  flex-direction: column;
+}
