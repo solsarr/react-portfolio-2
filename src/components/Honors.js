@@ -20,7 +20,7 @@ export default function Honors(){
                 <HonorCard name="Weather App" made="2022"  desc="This is a weather app that lets you choose to see weather data from other cities. current weather, 3 day forecast and 7 day forecast."
                 image="https://i.imgur.com/RDo4nK3.png" 
                 tech="React"
-                link="" />
+                link="https://sols-weather-app.netlify.app/" />
             </div>
             <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
         </div>
